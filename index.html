@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Used Music Gear</title>
+<style>
+  body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #F3F4F6; }
+  .header { background-color: #673AB7; padding: 20px; color: white; text-align: center; }
+  .search-container { text-align: center; margin-top: 20px; }
+  .search-container input { width: 70%; padding: 10px; }
+  .search-container button { padding: 10px; background-color: #008000; color: white; border: none; cursor: pointer; } /* updated contrast */
+  .products { display: flex; flex-wrap: wrap; justify-content: space-around; padding: 20px; }
+  .product { background-color: white; margin: 10px; padding: 20px; width: 30%; }
+  .footer { background-color: #333; color: white; text-align: center; padding: 10px; position: fixed; bottom: 0; width: 100%; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Used Music Gear</h1>
+  <div class="search-container">
+    <label for="search-gear" style="display:none;">Search for gear</label> <!-- Added label -->
+    <input id="search-gear" type="text" placeholder="Search for gear...">
+    <button onclick="search()">Search</button>
+  </div>
+  <button onclick="login()">Login</button>
+  <button onclick="signup()">Sign Up</button>
+</div>
+
+<div class="products">
+  <div class="product">
+    <h2>Fender Stratocaster</h2>
+    <p>Classic electric guitar with versatile sound.</p>
+  </div>
+  <div class="product">
+    <h2>Roland TD-1KV</h2>
+    <p>Compact electronic drum kit for beginners and enthusiasts.</p>
+  </div>
+  <div class="product">
+    <h2>Boss DD-7</h2>
+    <p>Digital delay pedal with up to 6.4 seconds of delay time.</p>
+  </div>
+</div>
+
+<div class="footer">
+  &copy; 2023 Music Gear. All rights reserved.
+</div>
+
+<script>
+  function search() {
+    alert("Search feature coming soon!");
+  }
+  function login() {
+    alert("Login system coming soon!");
+  }
+  function signup() {
+    alert("Signup system coming soon!");
+  }
+</script>
+
+</body>
+</html>
